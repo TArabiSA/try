@@ -2,10 +2,9 @@ import streamlit as st
 
 # Custom imports 
 from multiapp import MultiPage
-from apps import week
-from apps import month
-from apps import quarter
-from apps import year
+import apps as week
+from week import app
+
 
 
 # Create an instance of the app 
