@@ -3,10 +3,7 @@ st.set_page_config(page_title="Taba Pares House", page_icon=":chart_with_upwards
 
 # Custom imports 
 from multiapp import MultiPage
-import apps as week
-import apps as month
-import apps as quarter
-import apps as year
+from apps import week,month,quarter,year
 
 
 
