@@ -3,7 +3,6 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import requests
-import matplotlib.pyplot as plt
 import tensorflow as tf
 from streamlit_lottie import st_lottie
 
