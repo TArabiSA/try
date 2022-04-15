@@ -24,10 +24,10 @@ Navigation_name = st.selectbox("Select Prediction", ("WEEK", "MONTH", "QUARTER",
 st.title("Data :page_facing_up: ")
 
 # Add all your applications (pages) here
-app.add_page("WEEK", week_app)
-app.add_page("MONTH", monthapp)
-app.add_page("QUARTER", quarter_app)
-app.add_page("YEAR", year.app)
+app.add_page("WEEK",week.app)
+app.add_page("MONTH",month.app)
+app.add_page("QUARTER",quarter.app)
+app.add_page("YEAR",year.app)
 
 # The main app
 app.run()
