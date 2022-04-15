@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import requests
 from streamlit_lottie import st_lottie
-import matplotlib.pyplot as plt
+
 
 
 
