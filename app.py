@@ -1,25 +1,12 @@
 import streamlit as st
-st.set_page_config(page_title="Taba Pares House", page_icon=":chart_with_upwards_trend:", layout= "wide")
-from multiapp import MultiApp
-import apps as week
-import apps as month 
-import apps as quarter
-import apps as year
-
-
-
-
-
-app = MultiApp()
-st.markdown("""
-# Taba Pares House Sale's Forecasting using LSTM
-[Fabook page](https://www.facebook.com/TABAPARESHOUSE).
-""")
-
-# Add all your application here
-app.add_app("WEEK", apps.app)
-app.add_app("MONTH", apps.app)
-app.add_app("QUARTER", apps.app)
-app.add_app("YEAR", apps.app)
-# The main app
-app.run()
+# Create a page dropdown 
+page = st.selectbox("Choose your page", ["Page 1", "Page 2", "Page 3"]) 
+if page == "WEEK":
+    # Display details of page 1
+elif page == "MONTH":
+    # Display details of page 2
+elif page == "QUARTER":
+    # Display details of page 3
+elif page == "YEAR":
+    # Display details of page 4
+    
