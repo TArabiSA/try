@@ -18,7 +18,7 @@ st.markdown("""
 """)
 
 # Title of the main page
-st.title("Data Storyteller Application")
+st.title("Data :page_facing_up: ")
 
 # Add all your applications (pages) here
 app.add_page("WEEK", week['app'])
