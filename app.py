@@ -2,7 +2,7 @@ import streamlit as st
 st.set_page_config(page_title="Taba Pares House", page_icon=":chart_with_upwards_trend:", layout= "wide")
 
 # Custom imports 
-from multipage import MultiPage
+from multiapp import MultiPage
 from apps import week,month,quarter,year
 
 
@@ -21,10 +21,10 @@ Navigation_name = st.selectbox("Select Prediction", ("WEEK", "MONTH", "QUARTER",
 st.title("Data :page_facing_up: ")
 
 # Add all your applications (pages) here
-app.add_page("WEEK",week.app)
-app.add_page("MONTH",month.app)
-app.add_page("QUARTER",quarter.app)
-app.add_page("YEAR",year.app)
+app.add_app("WEEK",week.app)
+app.add_app("MONTH",month.app)
+app.add_app("QUARTER",quarter.app)
+app.add_app("YEAR",year.app)
 
 # The main app
 app.run()
