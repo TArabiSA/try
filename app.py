@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Custom imports 
-from multipage import MultiPage
+from multiapp import MultiPage
 from apps import week, month, quarter, year # import your pages here
 
 # Create an instance of the app 
