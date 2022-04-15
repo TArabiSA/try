@@ -17,6 +17,9 @@ st.markdown("""
 [Fabook page](https://www.facebook.com/TABAPARESHOUSE).
 """)
 
+Navigation_name = st.selectbox("Select Prediction", ("WEEK", "MONTH", "QUARTER", "YEAR"))
+
+
 # Title of the main page
 st.title("Data :page_facing_up: ")
 
