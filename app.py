@@ -1,6 +1,6 @@
 import streamlit as st
 # Create a page dropdown 
-page = st.selectbox("Choose your page", ["Page 1", "Page 2", "Page 3"]) 
+page = st.selectbox("Choose your page", ["WEEK", "MONTH", "QUARTER", "YEAR"]) 
 if page == "WEEK":
     # Display details of page 1
 elif page == "MONTH":
