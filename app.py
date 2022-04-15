@@ -1,4 +1,7 @@
 import streamlit as st
+st.set_page_config(page_title="Taba Pares House", page_icon=":chart_with_upwards_trend:", layout= "wide")
+from multiapp import MultiApp
+from apps import week, month, quarter, year
 
 # Custom imports 
 from multiapp import MultiPage
