@@ -17,9 +17,9 @@ st.markdown("""
 """)
 
 # Add all your application here
-app.add_app("WEEK", app)
-app.add_app("MONTH", app)
-app.add_app("QUARTER", app)
-app.add_app("YEAR", app)
+app.add_app("WEEK", .app)
+app.add_app("MONTH", .app)
+app.add_app("QUARTER", .app)
+app.add_app("YEAR", .app)
 # The main app
 app.run()
