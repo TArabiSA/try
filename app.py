@@ -21,8 +21,8 @@ st.markdown("""
 st.title("Data Storyteller Application")
 
 # Add all your applications (pages) here
-app.add_page("WEEK", week.app)
-app.add_page("MONTH", month.app)
+app.add_page("WEEK", week[app])
+app.add_page("MONTH", month[app])
 app.add_page("QUARTER", quarter.app)
 app.add_page("YEAR", year.app)
 
