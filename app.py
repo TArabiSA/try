@@ -16,10 +16,10 @@ app = MultiPage()
 st.title("Data Storyteller Application")
 
 # Add all your applications (pages) here
-app.add_page("Upload Data", week)
-app.add_page("Change Metadata", month)
-app.add_page("Machine Learning", quarter)
-app.add_page("Data Analysis", year)
+app.add_page("WEEK", week.app)
+app.add_page("MONTH", month.app)
+app.add_page("QUARTER", quarter.app)
+app.add_page("YEAR", year.app)
 
 # The main app
 app.run()
